@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        height: 100vh;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        id="box"
+        onclick="handleOnClick()"
+        onmouseenter="handleOnMouseEnter()"
+        onmouseleave="handleOnMouseLeave()"
+        style="background: #afafaf; padding: 60px !important"
+      >
+        Box
+      </div>
+    </div>
+  </body>
+  <script src="event.js"></script>
+</html>
